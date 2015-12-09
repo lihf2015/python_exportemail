@@ -1,0 +1,10 @@
+
+python manage.py syncdb # 进入 manage.py 所在的那个文件夹下输入这个命令
+
+ 
+
+注意：Django 1.7 及以上的版本需要用以下命令
+
+python manage.py makemigrations
+
+python manage.py migrate 
